@@ -1,0 +1,15 @@
+# Alteryx / Talend IDE workspace
+.metadata/
+*.lock
+*.log
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# Intermediate outputs that shouldn't be re-committed
+data/intermediate/*.bak
+ 
+# SQL Server local config
+*.suo
+*.user
